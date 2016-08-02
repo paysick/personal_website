@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+<!-- If IE use the latest rendering engine -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Set the page to the width of the device and set the zoon level -->
+<meta name="viewport" content="width = device-width, initial-scale = 1">
+<title>prateekparashar.me</title>
+
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" type="text/css" href="css/style_large.css">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<link rel="stylesheet" type="text/css" href="animate.css">
+</head>
+
+<body> 
+<div id="navbar" hidden>
+  <ul>
+    <li><a href="">About me</a></li>
+    <li><a href="">Skills</a></li>
+    <li><a href="">Experience</a></li>
+    <li><a href="">My Stats</a></li>
+    <li><a href="">Journal</a></li>
+    <li><a href="">Contact Me</a></li>
+  </ul>
+</div>
+<div id="theCarousel" class="carousel slide" data-ride="carousel">
+
+  <!-- Define how many slides to put in the carousel -->
+  <ol class="carousel-indicators">
+    <li data-target="#theCarousel" data-slide-to="0" class="active"> </li >
+    <li data-target="#theCarousel" data-slide-to="1"> </li>
+    <li data-target ="#theCarousel" data-slide-to="2"> </li>
+  </ol >
+
+  <!-- Define the text to place over the image -->
+  <div class="carousel-inner">
+    <div class="item active" >
+      <div class ="slide1"></div>
+      <div class="carousel-caption">
+        <h1>Prateek Parashar</h1>
+      </div>
+    </div>
+    <div class="item">
+      <div class="slide2"></div>
+      <div class="carousel-caption">
+        <h1>About Me</h1>
+      </div>
+    </div>
+    <div class="item">
+      <div class="slide3"></div>
+      <div class="carousel-caption">
+        <h1>My smug face</h1>
+      </div>
+    </div>
+  </div>
+
+  <!-- Set the actions to take when the arrows are clicked -->
+  <a class="left carousel-control" href="#theCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"> </span>
+  </a>
+  <a class="right carousel-control" href="#theCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div> <!-- carousel end -->
+
+<header>
+  <h1 class='title'>ABOUT ME</h1>
+  <h4 class='subtitle'>Let me introduce myself</h4><!--
+--><div class="underline"></div>
+</header>
+
+<div class="container">
+  <div class="row" id="personal_info">
+    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="personal_info_left" hidden> 
+    <img class="thumbnail" src="prateek_thumbnail.jpg">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. <br><br>Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="personal_info_right" hidden>
+    <div id="club"><span id="personal">PERSONAL     </span><span id="info">INFO</span></div>
+      <div class="fields"><span class="info_key">NAME</span><span class="info_val">Prateek Parashar</span></div>
+      <div class="fields"><span class="info_key">DOB</span><span class="info_val">13-April-2021</span></div>
+      <div class="fields"><span class="info_key">PHONE</span><span class="info_val">+91 9167425269</span></div>
+      <div class="fields"><span class="info_key">EMAIL</span><span class="info_val">prateekparashar@gmail.com</span></div>
+      <div class="fields"><span class="info_key">FOLLOW ME</span><span class="info_val"></span></div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid" id="skills">
+    <h1 class="title">SKILLS</h1>
+    <div id="skills_underline" class="underline"></div>
+    <div class="row">
+    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="skills_left" hidden>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur.<br><br> Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+
+    <ul class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="skills_right">
+      <li id="skillA" hidden></li>
+      <li id="skillB" hidden></li>
+      <li id="skillC" hidden></li>
+      <li id="skillD" hidden></li>
+      <li id="skillE" hidden></li>
+    </ul>
+  
+  </div>
+</div>
+
+<!--section id="cd-timeline">
+  <div class="cd-timeline-block">
+    <div class="cd-timeline-img animated flash">
+      <img src="green.png" alt="Picture">
+    </div> <!-- cd-timeline-img  
+--> <!--div class="cd-timeline-content animated fadeInRight">
+      <h2>Title of section 1</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+      <a href="#0" class="cd-read-more">Read more</a>
+      <span class="cd-date">Jan 14</span>
+    </div> <!-- cd-timeline-content -->
+  <!--/div> cd-timeline-block
+ 
+  <div class="cd-timeline-block">
+    <div class="cd-timeline-img animated flash">
+      <img src="green.png" alt="Picture">
+    </div> <!-- cd-timeline-img  
+--> <!--div class="cd-timeline-content animated fadeInRight">
+      <h2>Title of section 1</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+      <a href="#0" class="cd-read-more">Read more</a>
+      <span class="cd-date">Jan 14</span>
+    </div> <!-- cd-timeline-content -->
+  <!--/div>
+</section-->
+<div id="cards" class="clearfix">
+  <header>
+    <h1 class='title'>Services</h1>
+    <h4 class='subtitle'>What can I do for you</h4><!--
+  --><div class="underline"></div>
+  </header>
+  <div class="card" hidden>
+    <img src="trophy.svg">
+    <h1>heading1</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ratione ipsa quas provident nesciunt temporibus reiciendis natus, ipsum quo repellendus placeat facere. Sunt et illum quis sed, excepturi vitae beatae.</p>
+  </div>
+  <div class="card" hidden>
+    <img src="trophy.svg">
+    <h1>heading2</h1>
+    <p>Facilis pariatur delectus, aperiam tempore accusantium, nihil modi voluptatem placeat illo quos quis non esse maiores omnis odit aliquid dolorem temporibus neque. Quaerat quibusdam suscipit, in repellat assumenda voluptatum praesentium!</p>
+  </div>
+  <div class="card" hidden>
+    <img src="trophy.svg">
+    <h1>heading3</h1>
+    <p>Maiores tempore suscipit natus quibusdam odit fuga! Quos deserunt consequuntur quae reiciendis quia minima quasi laboriosam et pariatur quidem odio, fugit voluptates dignissimos aliquam modi vero, itaque laudantium repellat optio!</p>
+  </div>
+  <div class="card" hidden>
+    <img src="trophy.svg">
+    <h1>heading4</h1>
+    <p>Soluta architecto animi, mollitia aliquam cupiditate maxime adipisci reprehenderit a optio sapiente perferendis nisi quisquam eaque enim dicta, obcaecati. Perspiciatis quam error suscipit temporibus tenetur dignissimos laboriosam cumque non autem!</p>
+  </div>
+  <div class="card" hidden>
+    <img src="trophy.svg">
+    <h1>heading5</h1>
+    <p>Consequatur recusandae dicta, tempore doloremque placeat autem magnam, consequuntur fugit provident, error soluta hic earum id possimus. Magnam voluptate voluptates, quisquam. Quas provident corporis, assumenda eaque, at enim itaque mollitia.</p>
+  </div>
+</div>
+
+
+<div id="achievements">
+</div>
+
+<div class="wrapper">
+<div id="img_cards" class="clearfix">
+  <header>
+    <h1 class='title'>PORTFOLIO</h1>
+    <h4 class='subtitle'>My latest works</h4><!--
+  --><div class="underline"></div>
+  </header>
+  <div class="img_card" hidden>
+    <img src="http://stas-melnikov.ru/cliparts/desktop_480x320.jpg">
+    <div class="division"></div>
+    <h1>heading1</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ratione ipsa quas provident nesciunt temporibus reiciendis natus, ipsum quo repellendus placeat facere. Sunt et illum quis sed, excepturi vitae beatae.</p>
+  </div>
+  <div class="img_card" hidden>
+    <img src="http://stas-melnikov.ru/cliparts/desktop_480x320.jpg">
+    <div class="division"></div><h1>heading2</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ratione ipsa quas provident nesciunt temporibus reiciendis natus, ipsum quo repellendus placeat facere. Sunt et illum quis sed, excepturi vitae beatae.</p>
+  </div>
+  <div class="img_card" hidden>
+    <img src="http://stas-melnikov.ru/cliparts/desktop_480x320.jpg">
+    <div class="division"></div>
+    <h1>heading3</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ratione ipsa quas provident nesciunt temporibus reiciendis natus, ipsum quo repellendus placeat facere. Sunt et illum quis sed, excepturi vitae beatae.</p>
+  </div>
+  <div class="img_card" hidden>
+    <img src="http://stas-melnikov.ru/cliparts/desktop_480x320.jpg">
+    <div class="division"></div>
+    <h1>heading4</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ratione ipsa quas provident nesciunt temporibus reiciendis natus, ipsum quo repellendus placeat facere. Sunt et illum quis sed, excepturi vitae beatae.</p>
+  </div>
+  <div class="img_card" hidden>
+    <img src="http://stas-melnikov.ru/cliparts/desktop_480x320.jpg">
+    <div class="division"></div>
+    <h1>heading5</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ratione ipsa quas provident nesciunt temporibus reiciendis natus, ipsum quo repellendus placeat facere. Sunt et illum quis sed, excepturi vitae beatae.</p>
+  </div>
+  <div class="img_card" hidden>
+    <img src="http://stas-melnikov.ru/cliparts/desktop_480x320.jpg">
+    <div class="division"></div>
+    <h1>heading6</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore ratione ipsa quas provident nesciunt temporibus reiciendis natus, ipsum quo repellendus placeat facere. Sunt et illum quis sed, excepturi vitae beatae.</p>
+  </div>
+</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

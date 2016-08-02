@@ -1,0 +1,35 @@
+image sizes
+large 980 * 275
+medium 800 * 200
+small 500 * 75
+
+compression
+large: 80%
+medium: 50%
+small: 30%
+
+icons - 60px * 60px jpeg
+
+logo - png
+
+<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0"
+<link rel="stylesheet" type="text/css" media="only screen and (min-width:50px) and (max-width:500px)" href="animate.css">
+
+<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+
+M - what room can you eat? mushroom
+O - I'm round at the ends and high in the middle.What am I? Ohio
+R - What always murmurs but never talks, Always runs but never walks, Has a bed but never sleeps, Has a mouth but never speaks? river
+O - You use a knife to slice my head and weep beside me when I am dead? Onion
+N - An iron horse with a tail of flax. The more the horse gallops, the longer his tail becomes? Needle and thread
+
+What is so delicate that even mentioning it breaks it? silence
+
+
+
+
+
+

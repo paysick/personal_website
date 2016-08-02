@@ -1,0 +1,406 @@
+body {
+  font-family: 'Roboto', sans-serif, arial;
+}
+
+#navbar{
+  width: 100%;
+  box-shadow: 2px 0 5px;
+  position: fixed;
+  z-index: 99;
+  background-color: white;
+}
+
+#navbar ul li{
+  list-style-type: none;
+  float: right;
+  color: black;
+  margin-right: 1em;
+}
+
+#navbar ul li a{
+  text-decoration: none;
+}
+
+#websiteSlogan{
+  font-size: 5.4em;
+}
+
+/* Carousel Styling */
+
+.slide1, .slide2, .slide3 {
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+}
+.slide1{background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('../background3.jpg');}
+.slide2{background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('../background1.jpg');}
+.slide3{background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('../background2.jpg');}
+
+.carousel-caption h1{
+  position: relative;
+  font-size: 80px;
+  bottom: 180px;
+}
+
+header{
+  text-align: center;
+  font-size: 3.5em;
+}
+
+#personal{
+  font-size: 25px;
+  font-weight: 100;
+  -webkit-font-smoothing : antialiased;
+  -moz-font-smoothing : antialiased;
+}
+
+#info{
+  font-size: 25px;
+  font-weight: 800;
+  -webkit-font-smoothing : antialiased;
+  -moz-font-smoothing : antialiased;
+}
+
+header{
+  margin-bottom: 1em;
+}
+
+.title{
+  padding-top: 1em;
+}
+
+.subtitle{
+  padding: 1em;
+  color: #a74752;
+}
+
+.underline{
+  margin: auto; 
+  width: 50px;
+  height: 2px;
+  background-color: black;
+}
+
+#skills_underline{
+  margin: auto; 
+  width: 50px;
+  height: 2px;
+  background-color: white;
+}
+}
+
+#personal_info{
+  margin-top: 3em;
+  min-height: 400px;
+}
+
+.thumbnail{
+  height: 80px;
+  width: 80px;
+  position: relative;
+  left: 45%;
+}
+
+#personal_info_right{
+  padding: 1em;
+  background: #eeeeee;
+  height: 350px;
+  overflow: hidden;
+}
+
+#club{
+  position: relative;
+  margin-bottom: 2em;
+}
+
+.fields{
+  margin-bottom: 2em;
+}
+
+.info_key{
+  margin-left: 2em;
+  color: white;
+  background-color: black;
+  padding: 3px;
+}
+
+.info_val{
+  position: absolute;
+  left: 50%;
+}
+
+#personal_info_left{
+  padding: 1em;
+  height: 350px;
+  overflow: hidden;
+}
+
+#skills{
+  background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../background4.jpg');
+  z-index: -1;
+  color: white;
+  min-height: 500px;
+  text-align: center;
+}
+
+#skills_left{
+  padding: 1em;
+} 
+
+li{
+  background-color: white;
+  color: white;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  text-align: left;
+  padding-left: 2em;
+  font-weight: bold;
+  list-style-type: none;
+  height : 1.5em;
+}
+
+#skillA{
+  width: 90%;
+    -webkit-animation-name: A; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+    -moz-animation-name: A;
+    -moz-animation-duration: 1s;
+    animation-name: A;
+    animation-duration: 1s;
+}
+
+@-moz-keyframes A{
+  from {width: 0%}
+  to {width: 90%}
+}
+
+@-webkit-keyframes A{
+  from {width: 0%}
+  to {width: 90%}
+}
+
+@keyframes A{
+  from {width: 0%}
+  to {width: 90%}
+}
+
+#skillB{
+  width: 80%;
+    -webkit-animation-name: B; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+    -moz-animation-name: B;
+    -moz-animation-duration: 1s;
+    animation-name: B;
+    animation-duration: 1s;
+}
+
+@-moz-keyframes B{
+  from {width: 0%}
+  to {width: 80%}
+}
+
+@-webkit-keyframes B{
+  from {width: 0%}
+  to {width: 80%}
+}
+
+@keyframes B{
+  from {width: 0%}
+  to {width: 80%}
+}
+
+#skillC{
+  width: 60%;
+    -webkit-animation-name: C; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+    -moz-animation-name: C;
+    -moz-animation-duration: 1s;
+    animation-name: C;
+    animation-duration: 1s;
+}
+
+@-moz-keyframes C{
+  from {width: 0%}
+  to {width: 60%}
+}
+
+@-webkit-keyframes C{
+  from {width: 0%}
+  to {width: 60%}
+}
+
+@keyframes C{
+  from {width: 0%}
+  to {width: 60%}
+}
+
+#skillD{
+  width: 70%;
+    -webkit-animation-name: D; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+    -moz-animation-name: D;
+    -moz-animation-duration: 1s;
+    animation-name: D;
+    animation-duration: 1s;
+}
+
+@-moz-keyframes D{
+  from {width: 0%}
+  to {width: 70%}
+}
+
+@-webkit-keyframes D{
+  from {width: 0%}
+  to {width: 70%}
+}
+
+@keyframes D{
+  from {width: 0%}
+  to {width: 70%}
+}
+
+#skillE{
+  width: 30%;
+    -webkit-animation-name: E; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+    -moz-animation-name: E;
+    -moz-animation-duration: 1s;
+    animation-name: E;
+    animation-duration: 1s;
+}
+
+@-moz-keyframes E{
+  from {width: 0%}
+  to {width: 30%}
+}
+
+@-webkit-keyframes E{
+  from {width: 0%}
+  to {width: 30%}
+}
+
+@keyframes E{
+  from {width: 0%}
+  to {width: 30%}
+}
+
+#skillB{width: 80%;}
+#skillC{width: 60%;}
+#skillD{width: 70%;}
+#skillE{width: 30%;}
+
+
+#cd-timeline {
+  position: relative;
+  padding: 2em 0;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+#cd-timeline::before {
+  /* this is the vertical line */
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 100px;
+  height: 100%;
+  width: 4px;
+  background: #d7e4ed;
+}
+
+.cd-timeline-block{
+  display: relative;
+}
+
+.cd-timeline-img{
+  display: inline-block;
+  position: relative;
+  left: 72px;
+  bottom: 130px;
+}
+
+.cd-timeline-content{
+  font-family: "Comic Sans";
+  font-weight: 600;
+  border-radius: 0.5em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  position: relative;
+  left: 80px;
+  display: inline-block;
+  height: 200px;
+  width: 400px;
+  overflow: hidden;
+  background-color: orange; 
+}
+
+.cd-timeline-content p{
+  padding: 1em;
+}
+
+.cd-timeline-content h2{
+  font-weight: bold;
+  padding: 0 1em;
+}
+
+
+#cards{
+  text-align: center;
+  padding: 2em;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card{
+  padding: 1em;
+  padding-top: 0;
+  background-color: #dddddd;
+  width: 40%;
+  min-width: 200px;
+  float: left;
+  margin: 2em;
+}
+
+.card h1 {
+  margin-top: 0px;
+}
+
+.card img{
+  width: 50px;
+  margin-top: -30px;
+}
+
+#achievements{
+  height: 400px;
+  background-color: black;
+}
+
+#img_cards{
+  padding: 2em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img_card{
+  min-width: 250px;
+  width: 20%;
+  height: 400px;
+  margin: 1em;
+  float: left;
+  background-color: #dddddd;
+}
+
+.img_card img{
+  width: 100%;
+}
+
+.division{
+  height: 5px;
+  background-color: #a74752;
+  margin-top: -1px;
+}

@@ -1,0 +1,263 @@
+body {
+  font-family: 'Roboto', sans-serif, arial;
+}
+
+/* Carousel Styling */
+
+.slide1, .slide2, .slide3 {
+  height: 450px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+}
+.slide1{background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('../background3_min.jpg');}
+.slide2{background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('../background1_min.jpg');}
+.slide3{background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('../background2_min.jpg');}
+
+.carousel-caption h1{
+  position: relative;
+  font-size: 40px;
+  bottom: 150px;
+}
+
+header{
+  text-align: center;
+}
+
+#personal{
+  font-size: 20px;
+  font-weight: 100;
+  -webkit-font-smoothing : antialiased;
+  -moz-font-smoothing : antialiased;
+}
+
+#info{
+  font-size: 20px;
+  font-weight: 800;
+  -webkit-font-smoothing : antialiased;
+  -moz-font-smoothing : antialiased;
+}
+
+.title{
+  padding-top: 1em;
+}
+
+.subtitle{
+  padding-top: 1em;
+  color: #a74752;
+}
+
+.underline{
+  margin: auto;
+  margin-top: 2px;
+  margin-bottom: 0.5em;
+  width: 20%;
+  border-bottom: 1px;
+  border-color: black;
+  border-style: solid;
+}
+
+#personal_info{
+  min-height: 200px;
+}
+
+.thumbnail{
+  height: 20%;
+  margin: auto;
+}
+
+#personal_info_left{
+  font-size: 12px;
+}
+
+#personal_info_right{
+  padding: 1em;
+  background: #eeeeee;
+  min-height: 100px;
+  overflow: hidden;
+  font-size: 12px;
+}
+
+#club{
+  position: relative;
+  margin-bottom: 2em;
+}
+
+.fields{
+  margin-bottom: 2em;
+  font-size: 10px;
+}
+
+.info_key{
+  margin-left: 1em;
+  color: white;
+  background-color: black;
+  padding: 3px;
+}
+
+.info_val{
+  position: absolute;
+  left: 40%;
+}
+
+#personal_info_left{
+  padding: 1em;
+  height: 350px;
+  overflow: hidden;
+}
+
+#skills{
+  background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../background4_min.jpg');
+  z-index: -1;
+  color: white;
+  min-height: 100px;
+  text-align: center;
+  font-size: 12px;
+}
+
+#skills_left{
+  padding: 1em;
+} 
+
+li{
+  font-size: 10px;
+  background-color: white;
+  color: white;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  text-align: left;
+  padding-left: 2em;
+  font-weight: bold;
+  list-style-type: none;
+  height : 1.5em;
+}
+
+#skillA{
+  width: 90%;
+    -webkit-animation-name: A; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+    -moz-animation-name: A;
+    -moz-animation-duration: 1s;
+    animation-name: A;
+    animation-duration: 1s;
+}
+
+@-moz-keyframes A{
+  from {width: 0%}
+  to {width: 90%}
+}
+
+@-webkit-keyframes A{
+  from {width: 0%}
+  to {width: 90%}
+}
+
+@keyframes A{
+  from {width: 0%}
+  to {width: 90%}
+}
+
+#skillB{
+  width: 80%;
+    -webkit-animation-name: B; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+    -moz-animation-name: B;
+    -moz-animation-duration: 1s;
+    animation-name: B;
+    animation-duration: 1s;
+}
+
+@-moz-keyframes B{
+  from {width: 0%}
+  to {width: 80%}
+}
+
+@-webkit-keyframes B{
+  from {width: 0%}
+  to {width: 80%}
+}
+
+@keyframes B{
+  from {width: 0%}
+  to {width: 80%}
+}
+
+#skillC{
+  width: 60%;
+    -webkit-animation-name: C; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+    -moz-animation-name: C;
+    -moz-animation-duration: 1s;
+    animation-name: C;
+    animation-duration: 1s;
+}
+
+@-moz-keyframes C{
+  from {width: 0%}
+  to {width: 60%}
+}
+
+@-webkit-keyframes C{
+  from {width: 0%}
+  to {width: 60%}
+}
+
+@keyframes C{
+  from {width: 0%}
+  to {width: 60%}
+}
+
+#skillD{
+  width: 70%;
+    -webkit-animation-name: D; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+    -moz-animation-name: D;
+    -moz-animation-duration: 1s;
+    animation-name: D;
+    animation-duration: 1s;
+}
+
+@-moz-keyframes D{
+  from {width: 0%}
+  to {width: 70%}
+}
+
+@-webkit-keyframes D{
+  from {width: 0%}
+  to {width: 70%}
+}
+
+@keyframes D{
+  from {width: 0%}
+  to {width: 70%}
+}
+
+#skillE{
+  width: 30%;
+    -webkit-animation-name: E; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+    -moz-animation-name: E;
+    -moz-animation-duration: 1s;
+    animation-name: E;
+    animation-duration: 1s;
+}
+
+@-moz-keyframes E{
+  from {width: 0%}
+  to {width: 30%}
+}
+
+@-webkit-keyframes E{
+  from {width: 0%}
+  to {width: 30%}
+}
+
+@keyframes E{
+  from {width: 0%}
+  to {width: 30%}
+}
+
+#skillB{width: 80%;}
+#skillC{width: 60%;}
+#skillD{width: 70%;}
+#skillE{width: 30%;}
